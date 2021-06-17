@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+#cards-container {
+  display: flex;
+  border: 1px solid black;
+  margin: 0px auto;
+  max-width: 1200px;
+  width: 90%;
+}
+.card {
+  border: 1px solid black;
+  padding: 40px;
+}
+#c1 {
+  background-color: hsl(31, 77%, 52%);
+}
+#c2 {
+  background-color: hsl(184, 100%, 22%);
+}
+#c3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 900px) {
+  #cards-container {
+    flex-direction: column;
+    max-width: 360px;
+  }
+}

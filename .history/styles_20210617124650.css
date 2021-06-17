@@ -1,0 +1,28 @@
+body {
+  margin 0;
+}
+
+#cards-container {
+  display: flex;
+  border: 1px solid black;
+}
+.card {
+  border: 1px solid black;
+  padding: 40px;
+  max-width: ;
+}
+#c1 {
+  background-color: hsl(31, 77%, 52%);
+}
+#c2 {
+  background-color: hsl(184, 100%, 22%);
+}
+#c3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 900px) {
+  #cards-container {
+    flex-direction: column;
+  }
+}

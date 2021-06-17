@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  font-family: "Legend Deca", sans-serif;
+  font-size: 15px;
+}
+
+#cards-container {
+  display: flex;
+  margin: 0px auto;
+  max-width: 1200px;
+  width: 90%;
+  border-radius: 10px;
+  /* border: 1px solid black; */
+  overflow: hidden;
+}
+
+.card {
+  padding: 40px;
+}
+#c1 {
+  background-color: hsl(31, 77%, 52%);
+}
+#c1 > button {
+  color: hsl(31, 77%, 52%);
+}
+#c2 {
+  background-color: hsl(184, 100%, 22%);
+}
+#c2 > button {
+  color: hsl(184, 100%, 22%);
+}
+#c3 {
+  background-color: hsl(179, 100%, 13%);
+}
+#c3 {
+  color: hsl(179, 100%, 13%);
+}
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+button {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+}
+
+@media screen and (max-width: 900px) {
+  #cards-container {
+    flex-direction: column;
+    max-width: 360px;
+  }
+}

@@ -1,0 +1,16 @@
+body {
+}
+
+#cards-container {
+  display: flex;
+  border: 1px solid black;
+}
+#card {
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 900px) {
+  #cards-container {
+    flex-direction: column;
+  }
+}

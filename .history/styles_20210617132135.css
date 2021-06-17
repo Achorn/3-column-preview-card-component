@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  margin-top: 100px;
+  font-family: "Legend Deca", sans-serif;
+  font-size: 15px;
+}
+
+#cards-container {
+  display: flex;
+  margin: 0px auto;
+  max-width: 1000px;
+  width: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card {
+  padding: 55px;
+  height: 350px;
+}
+
+#c1 {
+  background-color: hsl(31, 77%, 52%);
+}
+#c1 > button {
+  color: hsl(31, 77%, 52%);
+}
+#c2 {
+  background-color: hsl(184, 100%, 22%);
+}
+#c2 > button {
+  color: hsl(184, 100%, 22%);
+}
+#c3 {
+  background-color: hsl(179, 100%, 13%);
+}
+#c3 {
+  color: hsl(179, 100%, 13%);
+}
+.contents {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+}
+h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0, 0%, 95%);
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 2;
+}
+button {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  border-radius: 50px;
+  height: 45px;
+  width: 140px;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    margin-top: 20px;
+  }
+  #cards-container {
+    flex-direction: column;
+    max-width: 360px;
+  }
+}
