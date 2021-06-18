@@ -63,9 +63,6 @@ button:hover {
   color: white;
   transition: 90ms;
 }
-button:active {
-  opacity: 0.5;
-}
 
 @media screen and (max-width: 900px) {
   body {
