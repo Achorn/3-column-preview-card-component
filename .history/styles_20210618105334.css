@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 55px;
-  height: 370px;
+  height: 350px;
 }
 
 #c1 {
@@ -57,7 +57,6 @@ button {
   border-radius: 50px;
   height: 45px;
   width: 140px;
-  font-weight: bolder;
 }
 
 @media screen and (max-width: 900px) {

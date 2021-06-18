@@ -15,10 +15,8 @@ body {
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
   padding: 55px;
-  height: 370px;
+  height: 350px;
 }
 
 #c1 {
@@ -36,7 +34,7 @@ body {
 #c3 {
   background-color: hsl(179, 100%, 13%);
 }
-#c3 > button {
+#c3 {
   color: hsl(179, 100%, 13%);
 }
 
@@ -49,7 +47,6 @@ h1 {
 p {
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 2;
-  flex-grow: 4;
 }
 button {
   background-color: hsl(0, 0%, 95%);
@@ -57,7 +54,6 @@ button {
   border-radius: 50px;
   height: 45px;
   width: 140px;
-  font-weight: bolder;
 }
 
 @media screen and (max-width: 900px) {

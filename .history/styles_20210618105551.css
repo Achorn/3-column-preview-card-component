@@ -57,10 +57,9 @@ button {
   border-radius: 50px;
   height: 45px;
   width: 140px;
-  font-weight: bolder;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   body {
     margin-top: 20px;
   }

@@ -16,9 +16,8 @@ body {
 
 .card {
   display: flex;
-  flex-direction: column;
   padding: 55px;
-  height: 370px;
+  height: 350px;
 }
 
 #c1 {
@@ -49,7 +48,6 @@ h1 {
 p {
   color: hsla(0, 0%, 100%, 0.75);
   line-height: 2;
-  flex-grow: 4;
 }
 button {
   background-color: hsl(0, 0%, 95%);
@@ -57,7 +55,6 @@ button {
   border-radius: 50px;
   height: 45px;
   width: 140px;
-  font-weight: bolder;
 }
 
 @media screen and (max-width: 900px) {
